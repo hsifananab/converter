@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/converter/static/css/main.073c9b0a.css",
-    "main.js": "/converter/static/js/main.3f38290f.js",
-    "static/js/787.9e61e6d0.chunk.js": "/converter/static/js/787.9e61e6d0.chunk.js",
-    "static/media/logo.svg": "/converter/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/converter/static/css/main.a5dc8d14.css",
+    "main.js": "/converter/static/js/main.86cd7041.js",
+    "static/media/Barlow-Mono-Regular.woff2": "/converter/static/media/Barlow-Mono-Regular.f1cee0e852c12ac7839c.woff2",
+    "static/media/barlow-v12-latin-regular.woff": "/converter/static/media/barlow-v12-latin-regular.bae4c7f5963304526231.woff",
+    "static/media/barlow-condensed-v12-latin-regular.woff": "/converter/static/media/barlow-condensed-v12-latin-regular.0d98701dc3e58046d5dd.woff",
+    "static/media/barlow-v12-latin-regular.woff2": "/converter/static/media/barlow-v12-latin-regular.7fa387951673abf164b1.woff2",
+    "static/media/barlow-condensed-v12-latin-regular.woff2": "/converter/static/media/barlow-condensed-v12-latin-regular.bcf8c5473a52498074ac.woff2",
     "index.html": "/converter/index.html",
-    "main.073c9b0a.css.map": "/converter/static/css/main.073c9b0a.css.map",
-    "main.3f38290f.js.map": "/converter/static/js/main.3f38290f.js.map",
-    "787.9e61e6d0.chunk.js.map": "/converter/static/js/787.9e61e6d0.chunk.js.map"
+    "main.a5dc8d14.css.map": "/converter/static/css/main.a5dc8d14.css.map",
+    "main.86cd7041.js.map": "/converter/static/js/main.86cd7041.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.3f38290f.js"
+    "static/css/main.a5dc8d14.css",
+    "static/js/main.86cd7041.js"
   ]
 }
