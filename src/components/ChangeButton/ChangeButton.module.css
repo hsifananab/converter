@@ -1,0 +1,47 @@
+.ChangeButton_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: none;
+  background-color: inherit;
+  color: inherit;
+
+
+  font-size: 2rem;
+  padding: 1rem;
+  transform: translateY(29.75%);
+
+  border-radius: 50%;
+
+  transition: all linear .2s;
+  cursor: pointer;
+}
+
+.ChangeButton_btn-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.ChangeButton_btn:hover {
+  /* color: dodgerblue; */
+
+  color: var(--accent);
+  /* box-shadow: 0 0 86px 40px rgba(30, 144, 255, 0.3); */
+  /* background-color: rgba(30, 144, 255, 0.2); */
+  border: none;
+  transform: rotate(-180deg) translateY(-17.5%) scale(1.3);
+}
+
+@media (max-width: 768px) {
+  .ChangeButton_btn {
+    padding: 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .ChangeButton_btn {
+    /* transform: none */
+    margin-bottom: 1rem;
+  }
+}

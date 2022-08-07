@@ -1,0 +1,44 @@
+.Contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  padding: 2rem;
+}
+
+.Contacts__nav {
+  display: flex;
+  gap: 2.4rem;
+
+}
+
+.Contacts__item {
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.Contacts__link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  padding: 1rem;
+  transition: all .2s linear;
+
+}
+
+.Contacts__link:hover {
+  /* color: dodgerblue; */
+  color: var(--accent);
+  /* font-size: 1.4rem; */
+  transform: scale(1.3);
+}
+
+@media (max-width: 320px) {
+  .Contacts {
+    padding-bottom: 0;
+  }
+}

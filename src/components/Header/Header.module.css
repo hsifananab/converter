@@ -1,0 +1,22 @@
+.Header {
+  position: absolute;
+  top: 0;
+
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  padding: 2rem 2rem;
+}
+
+/* @media (max-width: 768px) {
+  .Header {
+    bottom: 0;
+  }
+} */
+
+/* @media (max-width: 320px) {
+  .Header {
+    padding-top: 0;
+  }
+} */

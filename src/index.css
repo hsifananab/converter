@@ -1,13 +1,110 @@
-body {
+:root {
+  --background: white;
+  --text-primary: black;
+  --text-secondary: dodgerblue;
+  --accent: dodgerblue;
+  --saturated: #0074ff;
+  --code: #e8e8ea;
+  --border: #cccccc;
+  --menu-bg: #171715;
+
+  --accent03: #bcdeff;
+  --accent02: #d2e9ff;
+  --accent015: #ddeeff;
+}
+
+[data-theme='dark'] {
+  --background: black;
+  --text-primary: white;
+  --text-secondary: #e16f00;
+  --accent: #e16f00;
+  --saturated: #ff8b00;
+  --code: #171715;
+  --border: #333333;
+  --menu-bg: #e8e8ea;
+
+
+  --accent03: #432100;
+  --accent02: #2d1600;
+  --accent015: #221100;
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('assets/fonts/barlow-condensed-v12-latin-regular.woff2') format('woff2'),
+    url('assets/fonts/barlow-condensed-v12-latin-regular.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('assets/fonts/barlow-v12-latin-regular.woff2') format('woff2'),
+    url('assets/fonts/barlow-v12-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Barlow Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/fonts/Barlow-Mono-Regular.woff2') format('woff2');
+}
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Barlow Condensed';
+  font-weight: 400;
+  font-style: normal;
+
+  position: relative;
+
+  max-width: 1440px;
+  margin: 0 auto;
+
+  overflow: hidden;
+  /* dark */
+  background-color: var(--background);
+  color: var(--text-primary);
+
+  transition: all .2s linear;
+
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Barlow Mono';
+  font-style: normal;
+  /* background-color: #e8e8ea; */
+  background-color: var(--code);
+
+  transition: all .2s linear;
+
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+@media (max-width: 425px) {
+  code {
+    font-size: 1rem;
+  }
 }

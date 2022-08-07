@@ -1,0 +1,92 @@
+.Output {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+
+  text-align: center;
+  margin: 1.2rem 0;
+  width: 80vw;
+  min-width: 16rem;
+  max-width: 22rem;
+  font-size: 1.2rem;
+
+}
+
+.Output__input {
+  position: relative;
+
+  padding: 0.25rem 1.25rem;
+  margin-top: 0.75rem;
+
+  font-size: 2.4rem;
+  text-align: center;
+
+  font-family: 'Barlow';
+  /* color: dodgerblue; */
+  color: var(--accent);
+
+  /* border: 1px solid dodgerblue; */
+  border: 1px solid var(--accent);
+  transition: all .2s linear;
+
+
+  /* box-shadow: 0 0 56px 3px rgba(30, 144, 255, 0.3); */
+  box-shadow: 0 0 56px 3px var(--accent03);
+  border-radius: 10px;
+
+  /* #ddeeff */
+  /* background-color: rgba(30, 144, 255, 0.15); */
+  background-color: var(--accent015);
+
+  cursor: pointer;
+  outline: none;
+}
+
+.Output__input:active {
+  /* background-color: rgba(30, 144, 255, 0.2); */
+  background-color: var(--accent02);
+}
+
+.Output__input-copy {
+  position: absolute;
+  right: .75rem;
+  bottom: 0.75rem;
+  font-size: 2rem;
+
+  cursor: pointer;
+
+  color: var(--accent);
+}
+
+.copied {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  /* color: dodgerblue; */
+  color: var(--accent);
+  text-align: center;
+  position: absolute;
+  left: 40%;
+  right: 0;
+  /* bottom: -30px; */
+  animation-name: moveToTop;
+  animation-duration: .25s;
+  animation-iteration-count: 1;
+}
+
+@keyframes moveToTop {
+  from {
+    transform: translateY(-50%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 425px) {
+  .Output {
+    margin: 0;
+  }
+}
