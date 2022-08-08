@@ -8,6 +8,8 @@
   width: 100%;
 
   padding: 2rem;
+
+  z-index: 2;
 }
 
 .Contacts__nav {
