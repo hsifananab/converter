@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import styles from './ChangeButton.module.css';
 
 const ChangeButton = () => {
-  const currentPath = window.location.href.split('/').at(-1);
+  const currentPath = window.location.hash.slice(2);
   const targetPath = currentPath === 'px-to-rem' ? 'rem-to-px' : 'px-to-rem';
 
   return (

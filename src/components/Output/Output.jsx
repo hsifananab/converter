@@ -8,7 +8,7 @@ const Output = ({ valueToConvert, base, defaultValue, label }) => {
   const pxToRem = valueToConvert / base;
   const remToPx = valueToConvert * base;
 
-  const currentPath = window.location.href.split('/').at(-1);
+  const currentPath = window.location.hash.slice(2);
   const outputValue = currentPath === 'px-to-rem' ? pxToRem : remToPx;
 
   const handleValueCopy = () => {
