@@ -71,7 +71,7 @@ body {
   max-width: 1440px;
   margin: 0 auto;
 
-  overflow: hidden;
+  overflow-x: hidden;
   /* dark */
   background-color: var(--background);
   color: var(--text-primary);
@@ -79,6 +79,8 @@ body {
   transition: all .2s linear;
 
 }
+
+
 
 code {
   font-family: 'Barlow Mono';
