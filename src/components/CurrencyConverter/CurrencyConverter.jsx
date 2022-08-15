@@ -30,7 +30,7 @@ const CurrencyConverter = () => {
   };
 
   const handleToAmountChange = toAmount => {
-    setToAmount(format((fromAmount * rates[toCurrency]) / rates[fromCurrency]));
+    setFromAmount(format((toAmount * rates[fromCurrency]) / rates[toCurrency]));
     setToAmount(toAmount);
   };
 
