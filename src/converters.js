@@ -15,24 +15,12 @@ const converters = [
     from: 'REM',
     to: 'PX',
   },
-  // {
-  //   id: 3,
-  //   path: '/rem-to-px',
-  //   title: 'jopa-hui-jopa',
-  //   lable: 'Jopa Hui Jopa',
-  // },
-  // {
-  //   id: 4,
-  //   path: '/rem-to-px',
-  //   title: 'hui-jopa-hui',
-  //   lable: 'Hui Jopa Hui',
-  // },
-  // {
-  //   id: 5,
-  //   path: '/rem-to-px',
-  //   title: 'ti-loh-haha',
-  //   lable: 'Ti Loh haha',
-  // },
+  {
+    id: 3,
+    path: '/currency-converter',
+    title: 'currency-converter',
+    lable: 'Currency Converter',
+  },
 ];
 
 export const getConverters = () => converters;

@@ -25,8 +25,6 @@ const Menu = props => {
           </NavLink>
         ))}
       </nav>
-
-      {/* <Outlet /> */}
     </div>
   );
 };

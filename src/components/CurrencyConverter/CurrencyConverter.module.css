@@ -1,4 +1,4 @@
-.Converter {
+.CurrencyConverter {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -9,7 +9,7 @@
   transition: all .2s linear;
 }
 
-.Converter__inner {
+.CurrencyConverter__inner {
   max-width: 48rem;
   display: flex;
   justify-content: space-between;
@@ -17,36 +17,16 @@
 
   padding: 0 15px;
 
-  margin-bottom: 2rem;
+  margin: 1rem auto;
 }
 
-
 @media (max-width: 768px) {
-  .Converter {
+  .CurrencyConverter {
     height: 100%;
     justify-content: center;
   }
 
-  .Converter__inner {
+  .CurrencyConverter__inner {
     flex-direction: column;
-  }
-}
-
-@media (max-width: 435px) {
-  .Converter__title {
-    font-size: 1.8rem;
-    margin-bottom: 1.5rem;
-  }
-}
-
-@media (max-width: 375px) {
-  .Converter__title {
-    margin-bottom: 3.5rem;
-  }
-}
-
-@media (max-width: 320px) {
-  .Converter__title {
-    margin-bottom: 1.5rem;
   }
 }

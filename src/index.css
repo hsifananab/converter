@@ -1,32 +1,52 @@
 :root {
-  --background: white;
-  --text-primary: black;
-  --text-secondary: dodgerblue;
-  --accent: dodgerblue;
-  --saturated: #0074ff;
-  --code: #e8e8ea;
+  --background: #f8f8f8;
+  /* --background: #D9D9D9; */
+  /* --text-primary: #080808; */
+  --text-primary: #0D0D0D;
+  /* --text-secondary: dodgerblue; */
+  /* --accent: dodgerblue; */
+  /* --saturated: #0074ff; */
+  --text-secondary: #BF8F73;
+  --accent: #BF8F73;
+  --saturated: #c98c69;
+  /* --code: #e8e8ea; */
+  --code: #c9c9c9;
   --border: #cccccc;
   --menu-bg: #171715;
 
-  --accent03: #bcdeff;
-  --accent02: #d2e9ff;
-  --accent015: #ddeeff;
+  /* --accent03: #bcdeff; */
+  /* --accent02: #d2e9ff; */
+  /* --accent015: #ddeeff; */
+
+  /* --accent03: #bcdeff; */
+  --accent03: rgba(201, 140, 105, 0.3);
+  --accent02: rgba(201, 140, 105, 0.2);
+  --accent015: rgba(201, 140, 105, 0.15);
+
+  --shadow: rgba(0, 0, 0, 0.1);
 }
 
 [data-theme='dark'] {
-  --background: black;
-  --text-primary: white;
-  --text-secondary: #e16f00;
-  --accent: #e16f00;
-  --saturated: #ff8b00;
+  --background: #080808;
+  /* --background: #0D0D0D; */
+  /* --text-primary: #f8f8f8; */
+  --text-primary: #D9D9D9;
+  /* --text-secondary: #e16f00; */
+  /* --accent: #e16f00; */
+  /* --saturated: #ff8b00; */
+  --text-secondary: #A64E46;
+  --accent: #A64E46;
+  --saturated: #b2443a;
   --code: #171715;
   --border: #333333;
   --menu-bg: #e8e8ea;
 
 
-  --accent03: #432100;
-  --accent02: #2d1600;
-  --accent015: #221100;
+  --accent03: rgba(166, 78, 70, 0.3);
+  --accent02: rgba(166, 78, 70, 0.2);
+  --accent015: rgba(166, 78, 70, 0.15);
+
+  --shadow: rgba(255, 255, 255, 0.1)
 }
 
 @font-face {
@@ -80,7 +100,12 @@ body {
 
 }
 
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
 
+  letter-spacing: 6px;
+}
 
 code {
   font-family: 'Barlow Mono';
@@ -92,6 +117,22 @@ code {
 
 }
 
+.accent {
+  color: var(--accent);
+}
+
+.accented-output {
+  color: var(--accent);
+  border: 1px solid var(--accent) !important;
+  background-color: var(--accent015);
+  box-shadow: 0 0 56px 3px var(--accent03);
+  border-radius: 10px;
+  transition: all .2s linear;
+}
+
+.accented-output .CurrencyDropdown {
+  color: var(--text-primary);
+}
 
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,

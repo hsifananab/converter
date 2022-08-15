@@ -6,6 +6,7 @@ import Converter from './components/Converter/Converter';
 import Header from './components/Header/Header';
 
 import styles from './App.module.css';
+import CurrencyConverter from './components/CurrencyConverter/CurrencyConverter';
 
 const App = () => {
   const defaultDark = window.matchMedia(
@@ -29,10 +30,7 @@ const App = () => {
       <Routes>
         <Route path="/px-to-rem" element={<Converter from="px" to="rem" />} />
         <Route path="/rem-to-px" element={<Converter from="rem" to="px" />} />
-        {/* <Route path="/jopa-hui-jopa" />
-        <Route path="/hui-jopa-hui" />
-        <Route path="/ti-loh-haha" /> */}
-
+        <Route path="/currency-converter" element={<CurrencyConverter />} />
         <Route path="/" element={<Navigate to="/px-to-rem" replace />} />
       </Routes>
       <Contacts />

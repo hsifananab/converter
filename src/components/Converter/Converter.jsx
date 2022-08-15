@@ -18,10 +18,7 @@ const Converter = props => {
     <div className={styles.Converter}>
       <h1 className={styles.Converter__title}>
         {props.from.toUpperCase()} to{' '}
-        <span className={styles.Converter_accent}>
-          {props.to.toUpperCase()}
-        </span>{' '}
-        converter
+        <span className="accent">{props.to.toUpperCase()}</span> converter
       </h1>
       <div className={styles.Converter__inner}>
         <Input

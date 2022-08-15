@@ -1,0 +1,13 @@
+.CurrencyItem {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+
+  max-width: 22rem;
+  width: 80vh;
+
+  padding: 0.25rem 1rem;
+
+  margin: 1.2rem 0;
+}
