@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/converter/static/css/main.cb1fe5a8.css",
-    "main.js": "/converter/static/js/main.c5c1032a.js",
+    "main.css": "/converter/static/css/main.416bdc66.css",
+    "main.js": "/converter/static/js/main.472268e3.js",
     "static/media/Barlow-Mono-Regular.woff2": "/converter/static/media/Barlow-Mono-Regular.f1cee0e852c12ac7839c.woff2",
     "static/media/barlow-v12-latin-regular.woff": "/converter/static/media/barlow-v12-latin-regular.bae4c7f5963304526231.woff",
     "static/media/barlow-condensed-v12-latin-regular.woff": "/converter/static/media/barlow-condensed-v12-latin-regular.0d98701dc3e58046d5dd.woff",
     "static/media/barlow-v12-latin-regular.woff2": "/converter/static/media/barlow-v12-latin-regular.7fa387951673abf164b1.woff2",
     "static/media/barlow-condensed-v12-latin-regular.woff2": "/converter/static/media/barlow-condensed-v12-latin-regular.bcf8c5473a52498074ac.woff2",
     "index.html": "/converter/index.html",
-    "main.cb1fe5a8.css.map": "/converter/static/css/main.cb1fe5a8.css.map",
-    "main.c5c1032a.js.map": "/converter/static/js/main.c5c1032a.js.map"
+    "main.416bdc66.css.map": "/converter/static/css/main.416bdc66.css.map",
+    "main.472268e3.js.map": "/converter/static/js/main.472268e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb1fe5a8.css",
-    "static/js/main.c5c1032a.js"
+    "static/css/main.416bdc66.css",
+    "static/js/main.472268e3.js"
   ]
 }
